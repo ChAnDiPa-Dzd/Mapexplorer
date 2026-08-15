@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Map Explorer — اعرف موقعك بدقة</title>
+<title>Map Explorer — Know Your Location Precisely</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&family=Tajawal:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -111,7 +111,7 @@
     display:flex; gap:26px; flex-wrap:wrap; padding-top:26px; border-top:1px solid var(--line);
   }
   .coord-item{ font-size:.85rem; color:var(--muted); }
-  .coord-item b{ display:block; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:1rem; direction:ltr; text-align:right; }
+  .coord-item b{ display:block; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:1rem; direction:ltr; text-align:left; }
 
   /* PHONE MOCKUP */
   .phone-stage{ position:relative; height:640px; display:flex; align-items:center; justify-content:center; }
@@ -272,12 +272,12 @@
         <span>Map Explorer</span>
       </div>
       <div class="nav-links">
-        <a href="#features">المميزات</a>
-        <a href="#gallery">لقطات</a>
-        <a href="#about">عن التطبيق</a>
-        <a href="#trust">الخصوصية والشروط</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Screenshots</a>
+        <a href="#about">About the App</a>
+        <a href="#trust">Privacy & Terms</a>
       </div>
-      <a href="#download" download class="nav-cta">تحميل التطبيق</a>
+      <a href="#download" download class="nav-cta">Download for Android</a>
     </nav>
   </div>
 </header>
@@ -286,37 +286,37 @@
   <div class="contours"></div>
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow"><span class="dot"></span> إصدار 1.0.0 — متاح الآن</div>
-      <h1>اعرف موقعك<br>بدقة <span class="accent">تصل لثانية</span></h1>
-      <p class="lead">Map Explorer تطبيق خرائط بسيط وخفيف، يمنحك موقعك الحالي وإحداثيات GPS دقيقة وبوصلة مدمجة، مع إمكانية حفظ الأماكن والتقاط لقطات للخريطة — كل ذلك بواجهة سريعة الاستجابة.</p>
+      <div class="eyebrow"><span class="dot"></span> Version 1.0.0 — Available Now</div>
+      <h1>Know your location<br>with <span class="accent">second-level precision</span></h1>
+      <p class="lead">Map Explorer is a simple, lightweight map app that gives you your current location, precise GPS coordinates, and a built-in compass, with options to save places and capture map screenshots — all through a fast, responsive interface.</p>
       <div class="cta-row" id="download">
         <a href="Mapexplorer.apk" download="Mapexplorer.apk" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-          تحميل مباشر
+          Download for Android
         </a>
-        <a href="#features" class="btn btn-ghost">استكشف المميزات</a>
+        <a href="#features" class="btn btn-ghost">Explore Features</a>
       </div>
       <p class="apk-note">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M8 8l4-4 4 4"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
-        ملف <span class="mono">Mapexplorer.apk</span> — تثبيت مباشر بدون متجر تطبيقات
+        Android APK <span class="mono">Mapexplorer.apk</span> — Direct installation without an app store
       </p>
       <div class="coord-strip">
-        <div class="coord-item">الإحداثيات الحالية<b>29.076755, 2.237738</b></div>
-        <div class="coord-item">دقة تحديد الموقع<b>&lt; 5m</b></div>
-        <div class="coord-item">حجم التطبيق<b>&lt; 15MB</b></div>
+        <div class="coord-item">Current Coordinates<b>29.076755, 2.237738</b></div>
+        <div class="coord-item">Location Accuracy<b>&lt; 5m</b></div>
+        <div class="coord-item">App Size<b>&lt; 15MB</b></div>
       </div>
     </div>
 
     <div class="phone-stage">
-      <div class="phone phone-behind"><img src="assets/menu.jpg" alt="قائمة تطبيق Map Explorer"></div>
-      <div class="phone phone-main"><img src="assets/hero-map.jpg" alt="خريطة الأقمار الصناعية في تطبيق Map Explorer"></div>
+      <div class="phone phone-behind"><img src="assets/menu.jpg" alt="Map Explorer app menu"></div>
+      <div class="phone phone-main"><img src="assets/hero-map.jpg" alt="Satellite map in Map Explorer"></div>
       <div class="float-card float-1">
         <span class="pulse"></span>
-        <div class="txt">جاري تحديد الموقع<b>تم بنجاح</b></div>
+        <div class="txt">Locating your position<b>Successful</b></div>
       </div>
       <div class="float-card float-2">
         <div class="num mono">17:41</div>
-        <div class="lbl">آخر تحديث</div>
+        <div class="lbl">Last Update</div>
       </div>
     </div>
   </div>
@@ -325,51 +325,51 @@
 <section class="section features" id="features">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow"><span class="dot"></span> المميزات</div>
-      <h2>كل أداة تحتاجها لتحديد موقعك، في مكان واحد</h2>
-      <p>من الموقع الفوري إلى القياسات الدقيقة — صُمم Map Explorer ليكون سريعًا وواضحًا بلا تعقيد.</p>
+      <div class="eyebrow"><span class="dot"></span> Features</div>
+      <h2>Every tool you need to locate yourself, in one place</h2>
+      <p>From instant location tracking to precise measurements — Map Explorer is designed to be fast, clear, and simple.</p>
     </div>
 
     <div class="feature-grid">
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="2.5"/></svg></div>
-        <h3>موقعك الحالي فورًا</h3>
-        <p>اعرف مكانك بالضبط بلمسة واحدة، بدون تأخير أو تعقيد.</p>
+        <h3>Your Current Location, Instantly</h3>
+        <p>Know exactly where you are with one tap, without delays or complexity.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12h8M8 8h4M8 16h5"/></svg></div>
-        <h3>إحداثيات GPS دقيقة</h3>
-        <p>اعرض خطوط الطول والعرض وانسخها أو شاركها في ثانية.</p>
+        <h3>Precise GPS Coordinates</h3>
+        <p>View latitude and longitude, then copy or share them in seconds.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="m14.5 9.5-2 5-5 2 2-5 5-2Z"/></svg></div>
-        <h3>بوصلة مدمجة</h3>
-        <p>اتجاهك دائمًا أمامك، مفعّلة أو مخفية حسب رغبتك.</p>
+        <h3>Built-in Compass</h3>
+        <p>Your direction is always in view, enabled or hidden as you prefer.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg></div>
-        <h3>حفظ الأماكن بالضغط المطول</h3>
-        <p>اضغط مطولًا على أي نقطة لحفظها في قائمة المفضلة.</p>
+        <h3>Save Places with a Long Press</h3>
+        <p>Long-press any point to save it to your favorites.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M11 20V9M11 9 6 4M11 9l5-5"/><path d="M3 20h16"/></svg></div>
-        <h3>المسافة والاتجاه</h3>
-        <p>احسب المسافة بين نقطتين واعرف الاتجاه بينهما بدقة.</p>
+        <h3>Distance & Direction</h3>
+        <p>Calculate the distance between two points and determine the direction between them precisely.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><rect x="3" y="6" width="18" height="13" rx="3"/><circle cx="12" cy="12.5" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg></div>
-        <h3>لقطات للخريطة</h3>
-        <p>احفظ لقطة من الخريطة بجودة قياسية أو عالية.</p>
+        <h3>Map Screenshots</h3>
+        <p>Save a map screenshot in standard or high quality.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M12 2l2.6 6.6L21 10l-5.2 4.3L17.4 21 12 17.3 6.6 21 8.2 14.3 3 10l6.4-1.4Z"/></svg></div>
-        <h3>الأماكن المفضلة</h3>
-        <p>ارجع إلى أي مكان محفوظ في أي وقت بضغطة واحدة.</p>
+        <h3>Favorite Places</h3>
+        <p>Return to any saved place at any time with one tap.</p>
       </div>
       <div class="feature-card">
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
-        <h3>واجهة بسيطة وسريعة</h3>
-        <p>لا إعلانات مزعجة ولا تعقيد — فقط ما تحتاجه.</p>
+        <h3>Simple & Fast Interface</h3>
+        <p>No intrusive ads and no complexity — just what you need.</p>
       </div>
     </div>
   </div>
@@ -378,26 +378,26 @@
 <section class="section gallery" id="gallery">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow"><span class="dot"></span> لقطات من التطبيق</div>
-      <h2>واجهة نظيفة، كل شيء في متناول يدك</h2>
-      <p>جولة سريعة داخل التطبيق — من عرض الخريطة إلى الإعدادات والمزايا.</p>
+      <div class="eyebrow"><span class="dot"></span> App Screenshots</div>
+      <h2>A Clean Interface, Everything Within Reach</h2>
+      <p>A quick tour inside the app — from the map view to settings and features.</p>
     </div>
     <div class="gallery-scroll">
       <div class="gallery-item">
-        <div class="phone phone-gallery"><img src="assets/hero-map.jpg" alt="عرض الخريطة والإحداثيات"></div>
-        <p>عرض الخريطة والإحداثيات</p>
+        <div class="phone phone-gallery"><img src="assets/hero-map.jpg" alt="Map & Coordinates View"></div>
+        <p>Map & Coordinates View</p>
       </div>
       <div class="gallery-item">
-        <div class="phone phone-gallery"><img src="assets/menu.jpg" alt="القائمة الرئيسية"></div>
-        <p>القائمة الرئيسية</p>
+        <div class="phone phone-gallery"><img src="assets/menu.jpg" alt="Main Menu"></div>
+        <p>Main Menu</p>
       </div>
       <div class="gallery-item">
-        <div class="phone phone-gallery"><img src="assets/features.jpg" alt="قائمة المميزات"></div>
-        <p>قائمة المميزات</p>
+        <div class="phone phone-gallery"><img src="assets/features.jpg" alt="Features List"></div>
+        <p>Features List</p>
       </div>
       <div class="gallery-item">
-        <div class="phone phone-gallery"><img src="assets/settings.jpg" alt="الإعدادات"></div>
-        <p>الإعدادات</p>
+        <div class="phone phone-gallery"><img src="assets/settings.jpg" alt="Settings"></div>
+        <p>Settings</p>
       </div>
     </div>
   </div>
@@ -425,14 +425,14 @@
       </div>
     </div>
     <div class="about-text">
-      <div class="eyebrow"><span class="dot"></span> عن التطبيق</div>
-      <h2 style="font-size:clamp(1.7rem,3vw,2.2rem); font-weight:800; margin-bottom:20px;">تطبيق مستقل، صُمم ليكون خفيفًا وواضحًا</h2>
-      <p>Map Explorer تطبيق خرائط <b>مستقل</b> غير تابع لشركة Apple أو Google، يعتمد على بيانات الخرائط المتوفرة لعرض موقعك بدقة ومساعدتك على التنقل بسهولة.</p>
-      <p>بيانات المواقع المحفوظة تبقى <b>على جهازك فقط</b>، ولا تُرسل عمدًا إلى أي خادم خارجي — خصوصيتك في صميم تصميم التطبيق.</p>
+      <div class="eyebrow"><span class="dot"></span> About the App</div>
+      <h2 style="font-size:clamp(1.7rem,3vw,2.2rem); font-weight:800; margin-bottom:20px;">An Independent App, Designed to Be Lightweight and Clear</h2>
+      <p>Map Explorer is an <b>independent</b> map app and is not affiliated with Apple or Google. It uses available map data to display your location accurately and help you navigate with ease.</p>
+      <p>Saved location data remains <b>on your device only</b> and is not intentionally sent to any external server — your privacy is at the heart of the app’s design.</p>
       <div class="stat-row">
-        <div class="stat"><div class="n mono">15+</div><div class="l">مزايا مدمجة</div></div>
-        <div class="stat"><div class="n mono">100%</div><div class="l">تخزين محلي للمفضلة</div></div>
-        <div class="stat"><div class="n mono">1.0.0</div><div class="l">آخر إصدار</div></div>
+        <div class="stat"><div class="n mono">15+</div><div class="l">Built-in Features</div></div>
+        <div class="stat"><div class="n mono">100%</div><div class="l">Local Favorites Storage</div></div>
+        <div class="stat"><div class="n mono">1.0.0</div><div class="l">Latest Version</div></div>
       </div>
     </div>
   </div>
@@ -441,25 +441,25 @@
 <section class="section trust" id="trust">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow"><span class="dot"></span> الثقة والخصوصية</div>
-      <h2>موقعك يبقى بين يديك</h2>
-      <p>نلخّص لك أهم ما تحتاج معرفته قبل التحميل. للتفاصيل الكاملة، راجع الروابط في أسفل الصفحة.</p>
+      <div class="eyebrow"><span class="dot"></span> Trust & Privacy</div>
+      <h2>Your Location Stays in Your Hands</h2>
+      <p>Here are the key things you should know before downloading. For full details, see the links at the bottom of the page.</p>
     </div>
     <div class="trust-grid">
       <div class="trust-card">
         <span class="icon">🔒</span>
-        <h3>إذن الموقع عند الحاجة فقط</h3>
-        <p>يُطلب الوصول إلى الموقع فقط عند استخدام مزايا تعتمد عليه، ويمكنك إيقافه في أي وقت من إعدادات جهازك.</p>
+        <h3>Location Permission Only When Needed</h3>
+        <p>Location access is requested only when using features that require it, and you can disable it at any time from your device settings.</p>
       </div>
       <div class="trust-card">
         <span class="icon">💾</span>
-        <h3>الأماكن المحفوظة محليًا</h3>
-        <p>قائمة المفضلة الخاصة بك تُخزَّن على جهازك، ولا تُنقل عمدًا إلى خوادمنا.</p>
+        <h3>Locally Stored Places</h3>
+        <p>Your favorites list is stored on your device and is not intentionally transferred to our servers.</p>
       </div>
       <div class="trust-card">
         <span class="icon">📖</span>
-        <h3>استخدام مسؤول</h3>
-        <p>بيانات الخرائط قد لا تكون دقيقة دومًا؛ تحقق من المعلومات المهمة قبل الاعتماد عليها، وتجنّب استخدام التطبيق أثناء القيادة.</p>
+        <h3>Responsible Use</h3>
+        <p>Map data may not always be accurate; verify important information before relying on it, and avoid using the app while driving.</p>
       </div>
     </div>
   </div>
@@ -468,12 +468,12 @@
 <section class="section" style="padding-top:0;">
   <div class="wrap">
     <div class="cta-banner">
-      <h2>جاهز لتحديد موقعك بدقة؟</h2>
-      <p>حمّل Map Explorer الآن وابدأ الاستكشاف — مجانًا وبدون تعقيد.</p>
+      <h2>Ready to Locate Yourself Precisely?</h2>
+      <p>Download Map Explorer now and start exploring — free and without complexity.</p>
       <div class="cta-row">
         <a href="Mapexplorer.apk" download="Mapexplorer.apk" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-          تحميل مباشر
+          Download for Android
         </a>
       </div>
     </div>
@@ -490,24 +490,24 @@
           </div>
           <span>Map Explorer</span>
         </div>
-        <p>تطبيق خرائط بسيط وخفيف، لعرض الموقع الحالي والإحداثيات والبوصلة، مع إمكانية حفظ الأماكن ومشاركتها.</p>
+        <p>A simple, lightweight map app for viewing your current location, coordinates, and compass, with options to save and share places.</p>
       </div>
       <div class="footer-col">
-        <h4>الصفحة</h4>
-        <a href="#features">المميزات</a>
-        <a href="#about">عن التطبيق</a>
-        <a href="#trust">الخصوصية والشروط</a>
+        <h4>Page</h4>
+        <a href="#features">Features</a>
+        <a href="#about">About the App</a>
+        <a href="#trust">Privacy & Terms</a>
       </div>
       <div class="footer-col">
-        <h4>قانوني</h4>
-        <a href="#">سياسة الخصوصية</a>
-        <a href="#">شروط الاستخدام</a>
-        <a href="#">تواصل معنا</a>
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact Us</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Map Explorer — الإصدار 1.0.0</span>
-      <span>تطبيق مستقل، غير تابع لشركة Apple Inc. أو Google LLC</span>
+      <span>© 2026 Map Explorer — Version 1.0.0</span>
+      <span>Independent app, not affiliated with Apple Inc. or Google LLC</span>
     </div>
   </div>
 </footer>
